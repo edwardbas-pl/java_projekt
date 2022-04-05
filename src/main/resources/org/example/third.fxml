@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="293.0" prefWidth="514.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ThirdController">
+   <children>
+      <Label prefHeight="22.0" prefWidth="238.0" text="Podaj Swój E-mail" textAlignment="CENTER">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="registerButton" mnemonicParsing="false" onAction="#switchToPrimary" text="zarejestruj" />
+   </children>
+</VBox>
